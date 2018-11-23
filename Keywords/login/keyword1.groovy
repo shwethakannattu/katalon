@@ -93,11 +93,11 @@ public class Keywordlogin {
 		
 		WebUI.navigateToUrl('http://www.phptravels.net/admin')
 
-		WebUI.setText(findTestObject('Assessment1/Page_Administator Login/input_email'), 'admin@phptravels.com')
+		WebUI.setText(findTestObject('Admin/Page_Administator Login/input_email'), 'admin@phptravels.com')
 
-		WebUI.setText(findTestObject('Assessment1/Page_Administator Login/input_password'), 'demoadmin')
+		WebUI.setText(findTestObject('Admin/Page_Administator Login/input_password'), 'demoadmin')
 
-		WebUI.click(findTestObject('Assessment1/Page_Administator Login/span_Login'))
+		WebUI.click(findTestObject('Admin/Page_Administator Login/span_Login'))
 	}
 }
 
@@ -109,10 +109,10 @@ public class Keywordlogin1 {
 
 		WebUI.navigateToUrl('https://www.phptravels.net/admin')
 
-		WebUI.setText(findTestObject('Assessment1/Page_Administator Login/input_email'), 'shwetha.k296@gmail.c')
+		WebUI.setText(findTestObject('Admin/Page_Administator Login/input_email'), 'shwetha.k296@gmail.c')
 
-		WebUI.setText(findTestObject('Assessment1/Page_Administator Login/input_password'), 'roseredpink')
+		WebUI.setText(findTestObject('Admin/Page_Administator Login/input_password'), 'roseredpink')
 
-		WebUI.click(findTestObject('Assessment1/Page_Administator Login/span_Login'))
+		WebUI.click(findTestObject('Admin/Page_Administator Login/span_Login'))
 	}
 }
